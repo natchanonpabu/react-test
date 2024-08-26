@@ -1,0 +1,50 @@
+@use "./colors.scss" as color;
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid color.$primary-gray;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background: color.$primary-gray;
+  border-radius: 100%;
+}
+
+.oval {
+  width: 300px;
+  height: 100px;
+  background: color.$primary-gray;
+  border-radius: 100%;
+}
+
+.trapezoid {
+  border-bottom: 100px solid color.$primary-gray;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  height: 0;
+  width: 300px;
+}
+
+.parallelogram {
+  width: 90%;
+  height: 100px;
+  transform: skew(20deg);
+  background: color.$primary-gray;
+}
+
+.rectangle {
+  width: 300px;
+  height: 100px;
+  background: color.$primary-gray;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background: color.$primary-gray;
+}
